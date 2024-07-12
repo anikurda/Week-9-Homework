@@ -134,7 +134,9 @@ h4 {
     column-gap: 20px;
 }
 
-/* .s3imgbox{} */
+.s3imgbox {width: 50%;
+}
+
 .s3img {
     width: 100%;
     height: 400px;
@@ -143,6 +145,7 @@ h4 {
 
 .s3a {
     position: relative;
+    width: 50%;
 }
 
 .s3h {
