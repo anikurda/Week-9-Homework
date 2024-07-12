@@ -1,0 +1,77 @@
+@media (max-width:480px) {
+    header {
+        /* width: 92%; */
+        width: calc(347 / 375 * 100%);
+        margin: auto;
+    }
+
+    /* .burgerlink {
+        font-size: 32px;
+    } */
+
+    .burgerlogo {
+        display: revert;
+        width: 32px;
+        height: 32px;
+    }
+
+    .headerp {
+        display: revert;
+    }
+
+    .headernav {
+        display: none;
+    }
+
+    .section1 {
+        height: 431px;
+    }
+
+    .s1h {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .s1p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .s1text {
+        width: calc(347 / 375 * 100%);
+    }
+
+    .section2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .s2h {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .allarticles {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    /* .s3buttonlink {
+        width: 100%;
+    } */
+    .section3 {
+        width: calc(347 / 374 * 100%2);
+    }
+
+    .s3h {
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+
+    .s3p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}

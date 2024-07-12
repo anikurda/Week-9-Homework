@@ -1,0 +1,41 @@
+@media (max-width:1024px) {
+    header {
+        width: calc(840 / 1024 * 100%);
+        margin: auto;
+    }
+
+    .section1 {
+        height: 550px;
+    }
+
+    .s1text {
+        width: calc(840 / 1024 * 100%);
+        ;
+    }
+
+    .section2 {
+        width: calc(840 / 1024 * 100%);
+    }
+
+    .s2lastarticle {
+        display: none;
+    }
+
+    .section3 {
+        width: calc(840 / 1024 * 100%);
+        height: 840px;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+        position: relative;
+    }
+
+    .s3imgbox {
+        width: 100%;
+    }
+
+    .s3a {
+        width: 100%;
+        position: static;
+    }
+}

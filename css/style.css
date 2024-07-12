@@ -4,6 +4,7 @@ header {
     margin: auto;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .title {
@@ -14,6 +15,10 @@ header {
     align-items: center;
 }
 
+.burgerlogo {
+    display: none;
+}
+
 .headerp {
     font-family: Pridi;
     font-size: 18px;
@@ -21,17 +26,21 @@ header {
     line-height: 27.9px;
     text-align: left;
     color: #FA793C;
+    text-wrap: nowrap;
 }
 
 .fullnav {
-    width: 370px;
     display: flex;
-    justify-content: space-between;
+    column-gap: 40px;
     align-items: center;
 }
 
-.headernavul {
+.headernav {
     width: 306px;
+}
+
+.headernavul {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -134,7 +143,8 @@ h4 {
     column-gap: 20px;
 }
 
-.s3imgbox {width: 50%;
+.s3imgbox {
+    width: 50%;
 }
 
 .s3img {
